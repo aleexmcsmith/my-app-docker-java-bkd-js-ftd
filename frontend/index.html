@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consuming java endpoint using javascript</title>
+</head>
+<style>
+    body,
+    html {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background:
+            linear-gradient(90deg, rgb(255 0 0 / 0.8), transparent 70.71%),
+            linear-gradient(127deg, rgb(0 255 0 / 0.8), transparent 70.71%),
+            linear-gradient(336deg, rgb(0 0 255 / 0.8), transparent 70.71%);
+        display: flex;
+    }
+
+    .container {
+        background-color: rgb(215, 250, 247);
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #data-container {
+        display: none;
+        margin-top: 20px;
+        padding: 10px;
+        /* border: 1px solid #ccc; */
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 2px rgba(218, 211, 211, 0.8);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>Java Endpoint Consumption Demo</h1>
+        <div id="data-container">
+            <p>id</p>
+            <p>user id</p>
+            <p>title</p>
+            <p>completed</p>
+        </div>
+        <input id="num" type="number" placeholder="Enter todo ID" />
+        <button id="btn">submit</button>
+    </div>
+
+    <script src="javaEndPointConsumption.js"></script>
+</body>
+
+</html>
