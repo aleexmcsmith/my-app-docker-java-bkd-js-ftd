@@ -5,7 +5,8 @@ const btnEl = document.getElementById('btn');
 const numEl = document.getElementById('num');
 const dataContainer = document.getElementById('data-container');
 
-btnEl.addEventListener('click', () => {
+btnEl.addEventListener('click', (e) => {
+    e.preventDefault()
     const todoId = numEl.value || 1;
     displayData(todoId);
     dataContainer.style.display = 'block';
