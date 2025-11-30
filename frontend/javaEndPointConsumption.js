@@ -1,6 +1,6 @@
 console.log("Java End Point Consumption Script Loaded");
 // const url = "http://localhost:8080"; 
-const url - "https://my-app-docker-backend.onrender.com"
+const url = "https://my-app-docker-backend.onrender.com"
 const btnEl = document.getElementById('btn');
 const numEl = document.getElementById('num');
 const dataContainer = document.getElementById('data-container');
